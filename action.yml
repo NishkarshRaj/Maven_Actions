@@ -1,0 +1,12 @@
+name: 'Apache Maven Build Automation for Java Project'
+description: 'Automate build of Java project using GitHub Actions'
+author: 'Nishkarsh Raj'
+inputs:
+  src:
+    description: 'Apache Maven hierarchy to be followed in src/main/java/{pkg name} for source code'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'check-circle'
+  color: 'green'
