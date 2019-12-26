@@ -2,7 +2,7 @@
 
 ## Contribution Guidelines
 
-Contributions of all sorts are appreciated :smile: 
+Contributions of all sorts are appreciated. 
 
 Please follow the following [guidelines](CONTRIBUTING.md)
 
