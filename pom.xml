@@ -72,4 +72,11 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+  <repository>
+    <id>NishkarshRaj</id>
+    <name>Nishkarsh Raj</name>
+    <url>https://maven.pkg.github.com/nishkarshraj</url>
+  </repository>
+</distributionManagement>
 </project>
