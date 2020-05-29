@@ -1,5 +1,5 @@
 name: Java CI
-on: [pull_request]
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,4 +11,4 @@ jobs:
         mvn clean install
         mvn test
         mvn site
-        mvn deploy -Dregistry=https://maven.pkg.github.com/nishkarshraj -Dtoken=[Insert Token]
+        mvn deploy -Dregistry=https://maven.pkg.github.com/nishkarshraj -Dtoken=$GH_TOKEN
