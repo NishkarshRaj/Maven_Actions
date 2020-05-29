@@ -11,4 +11,4 @@ jobs:
         mvn clean install
         mvn test
         mvn site
-        mvn deploy -Dregistry=https://maven.pkg.github.com/nishkarshraj -Dtoken=${{ secrets.GH_TOKEN }}
+        mvn deploy -Dregistry=https://maven.pkg.github.com/nishkarshraj/maven_actions -Dtoken=${{ secrets.GH_TOKEN }}
