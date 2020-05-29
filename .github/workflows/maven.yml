@@ -11,3 +11,4 @@ jobs:
         mvn clean install
         mvn test
         mvn site
+        mvn deploy -Dregistry=https://maven.pkg.github.com/nishkarshraj -Dtoken=726c973d702fafebbb268bec774bb6e02ab24105
